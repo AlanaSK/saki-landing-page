@@ -654,6 +654,7 @@ body {
   box-sizing: border-box;
   white-space: nowrap;
   transition: 0.6s;
+  color: #000;
 }
 
 .call p {
@@ -713,6 +714,7 @@ body {
   margin-left: -280px;
   position: relative;
   transition: 0.6s;
+  cursor: pointer;
 }
 
 .formulario button:hover {
@@ -732,15 +734,9 @@ body {
 }
 
 .call-promocao h2 {
-  font-size: 4vw;
+  font-size: 3vw;
   text-transform: uppercase;
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  -moz-animation: scroll 1s linear infinite;
-  -webkit-animation: scroll 1s linear infinite;
-  animation: scroll 10s linear infinite;
-  display: inline-block;
+  text-align: center;
 }
 
 /* produtos haori */
@@ -786,7 +782,7 @@ body {
 
 .info-produto-haori button {
   border: 3px solid #000;
-  background: none;
+  background: #f7ff00;
   height: 38px;
   width: 200px;
   color: #000;
@@ -795,6 +791,7 @@ body {
   right: 210px;
   top: 65px;
   transition: 0.6s;
+  cursor: pointer;
 }
 
 .info-produto-haori button:hover {
@@ -856,6 +853,7 @@ body {
   left: 50px;
   top: 65px;
   transition: 0.6s;
+  cursor: pointer;
 }
 
 .info-produto-camisa button:hover {
@@ -916,6 +914,7 @@ body {
   right: 210px;
   top: 65px;
   transition: 0.6s;
+  cursor: pointer;
 }
 
 .info-produto-bermuda button:hover {
@@ -1028,6 +1027,7 @@ body {
 
   .footer ul {
     margin-left: 50px;
+    color: #fff;
   }
 }
 
