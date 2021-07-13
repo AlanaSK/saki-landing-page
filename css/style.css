@@ -1033,15 +1033,21 @@ body {
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 787px) {
+  .header {
+    width: 350px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
   .header img {
     width: 100px;
-    margin-left: -50px;
+    margin-left: -20px;
   }
 
   .header ul {
-    font-size: 30px;
-    letter-spacing: 30px;
-    right: -80px;
+    font-size: 25px;
+    letter-spacing: 25px;
+    right: -40px;
   }
 
   .box-call {
@@ -1063,133 +1069,136 @@ body {
 
   .formulario h2 {
     font-size: 18px;
-    margin-left: -75px;
-    width: 450px;
+    margin-left: auto;
+    width: 300px;
   }
 
   .formulario #form {
-    width: 300px;
-    position: relative;
-    left: -45px;
+    width: 200px;
+    margin-left: auto;
+    transform: translateX(0);
   }
 
   .formulario button {
-    right: -100px;
+    right: -290px;
+    width: 90px;
   }
 
   .call-promocao {
     margin-top: 130px;
+    width: 500px;
   }
 
   .call-promocao h2 {
     font-size: 25px;
+    padding: 5px;
   }
 
   /* haori */
   .haori ul li img {
-    width: 350px;
+    width: 300px;
   }
 
   .haori .haori-vermelho {
-    left: -80px;
+    left: -20px;
   }
 
   .haori .haori-preto {
-    left: -120px;
+    left: -140px;
   }
 
   .info-produto-haori {
     height: 200px;
-    margin-top: 350px;
+    margin-top: 320px;
   }
 
   .info-produto-haori h2 {
-    left: -70px;
+    left: 0px;
     top: 65px;
   }
 
   .info-produto-haori p {
-    left: -70px;
+    left: 0px;
     top: 85px;
   }
 
   .info-produto-haori button {
-    left: -70px;
+    left: 0px;
     top: 120px;
   }
 
   /* camisa */
   .camisa ul li img {
-    width: 300px;
+    width: 250px;
   }
 
   .camisa .camisa-vermelho {
-    left: -80px;
+    left: -20px;
   }
 
   .camisa .camisa-preto {
-    left: 80px;
+    left: 60px;
   }
 
   .info-produto-camisa {
     height: 200px;
-    margin-top: 300px;
+    margin-top: 290px;
   }
 
   .info-produto-camisa h2 {
-    left: -70px;
+    left: 0px;
     top: 65px;
   }
 
   .info-produto-camisa p {
-    left: -70px;
+    left: 0px;
     top: 85px;
   }
 
   .info-produto-camisa button {
-    left: -70px;
+    left: 0px;
     top: 120px;
   }
 
   /* bermuda */
   .bermuda ul li img {
-    width: 280px;
+    width: 230px;
   }
 
   .bermuda .bermuda-vermelho {
-    left: -80px;
+    left: -20px;
   }
 
   .bermuda .bermuda-preto {
-    left: -60px;
+    left: -80px;
   }
 
   .info-produto-bermuda {
     height: 200px;
-    margin-top: 330px;
+    margin-top: 290px;
   }
 
   .info-produto-bermuda h2 {
-    left: -70px;
+    left: 0px;
     top: 65px;
   }
 
   .info-produto-bermuda p {
-    left: -70px;
+    left: 0px;
     top: 85px;
   }
 
   .info-produto-bermuda button {
-    left: -70px;
+    left: 0px;
     top: 120px;
   }
 
   .footer h2 {
-    margin-left: -80px;
+    margin-left: 0px;
   }
 
   .footer ul {
-    margin-left: -80px;
+    margin-left: 0px;
   }
 }
 

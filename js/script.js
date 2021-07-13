@@ -8,7 +8,3 @@ button.addEventListener('click', () => {
 
 
 // banner
-window.cancelAnimationFrame = (function() {
-  return window.requestAnimationFrame ||
-         window
-})
