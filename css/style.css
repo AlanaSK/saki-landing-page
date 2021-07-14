@@ -620,6 +620,9 @@ body {
 
 .header {
   position: relative;
+  width: 910px;
+  overflow: hidden;
+  margin: 20px auto;
 }
 
 .header img {
@@ -770,13 +773,13 @@ body {
 .info-produto-haori h2 {
   max-width: 50px;
   position: absolute;
-  right: 200px;
+  right: 150px;
 }
 
 .info-produto-haori p {
   max-width: 190px;
   position: absolute;
-  right: 190px;
+  right: 140px;
   top: 25px;
 }
 
@@ -788,7 +791,7 @@ body {
   color: #000;
   text-transform: uppercase;
   position: absolute;
-  right: 210px;
+  right: 160px;
   top: 65px;
   transition: 0.6s;
   cursor: pointer;
@@ -893,14 +896,14 @@ body {
 .info-produto-bermuda h2 {
   max-width: 50px;
   position: absolute;
-  right: 180px;
+  right: 130px;
   transform: translateX(-100%);
 }
 
 .info-produto-bermuda p {
   max-width: 190px;
   position: absolute;
-  right: 0px;
+  right: -50px;
   transform: translateX(-100%);
   top: 25px;
 }
@@ -913,7 +916,7 @@ body {
   color: #000;
   text-transform: uppercase;
   position: absolute;
-  right: 210px;
+  right: 160px;
   top: 65px;
   transition: 0.6s;
   cursor: pointer;
@@ -927,24 +930,67 @@ body {
 
 /* footer */
 .footer {
-  height: 100px;
+  position: relative;
   color: #fff;
+  height: 150px;
 }
 
 .footer h2 {
-  font-size: 18px;
-  margin-top: 15px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
-.footer ul {
-  margin-top: 10px;
+.footer h2:after {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  margin-top: 8px;
+}
+
+.footer .sobre p {
+  width: 300px;
+  font-size: 16px;
+}
+
+.footer .fale-com ul li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.footer .redes ul li {
+  display: inline-block;
+  border: 2px solid #fff;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.feito-por {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.feito-por a {
+  color: #f7ff00;
+}
+
+.feito-por:before {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  margin: 30px auto;
 }
 
 /* responsivo */
 /*Estilo para tablet*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
   .header {
-    width: 750px;
+    width: 718px;
     overflow: hidden;
     margin: 0 auto;
   }
@@ -976,23 +1022,23 @@ body {
   }
 
   .call-promocao {
-    margin-top: 80px;
+    margin-top: 130px;
   }
 
   .info-produto-haori h2 {
-    right: 100px;
+    right: 0;
   }
 
   .info-produto-haori p {
-    right: 93px;
+    right: -8px;
   }
 
   .info-produto-haori button {
-    right: 110px;
+    right: 10px;
   }
 
   .camisa .camisa-vermelho {
-    right: 50px;
+    right: 0px;
   }
 
   .camisa .camisa-preto {
@@ -1004,7 +1050,7 @@ body {
   }
 
   .bermuda .bermuda-vermelho {
-    left: 30px;
+    left: 0;
   }
 
   .bermuda .bermuda-preto {
@@ -1012,24 +1058,27 @@ body {
   }
 
   .info-produto-bermuda h2 {
-    right: 100px;
+    right: 0;
   }
 
   .info-produto-bermuda p {
-    right: 60px;
+    right: -180px;
   }
 
   .info-produto-bermuda button {
-    right: 80px;
+    right: 30px;
   }
 
-  .footer h2 {
-    margin-left: 50px;
+  .footer .sobre p {
+    width: 250px;
   }
 
-  .footer ul {
+  .footer .fale-com ul li {
+    width: 245px;
+  }
+
+  .footer .redes {
     margin-left: 50px;
-    color: #fff;
   }
 }
 
@@ -1195,12 +1244,12 @@ body {
     top: 120px;
   }
 
-  .footer h2 {
-    margin-left: 0px;
+  .footer .sobre {
+    margin-bottom: 30px;
   }
 
-  .footer ul {
-    margin-left: 0px;
+  .footer .fale-com {
+    margin-bottom: 30px;
   }
 }
 
